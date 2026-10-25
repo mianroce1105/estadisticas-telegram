@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTADÍSTICAS GLOBAL: ESTRENOS</title>
+    <style>
+        body { background-color: #18191a; color: #e4e6eb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 15px; }
+        h1 { color: #4fc3f7; font-size: 20px; text-align: center; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #b0b3b8; font-size: 13px; margin-bottom: 20px; }
+        .tabs { display: flex; justify-content: center; gap: 5px; margin-bottom: 15px; flex-wrap: wrap; }
+        .tab-btn { background-color: #242526; color: #e4e6eb; border: none; padding: 8px 14px; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 13px; transition: 0.2s; }
+        .tab-btn.active { background-color: #0084ff; color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+        .card { background-color: #242526; border-radius: 10px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+        h2 { font-size: 14px; color: #ffb74d; margin-top: 0; border-bottom: 1px solid #3a3b3c; padding-bottom: 6px; }
+        ol { padding-left: 20px; margin: 0; font-size: 13px; }
+        li { margin-bottom: 6px; }
+        a { color: #4fc3f7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .metric { color: #e57373; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🏆 TOP 50 ESTRENOS</h1>
+    <div class="subtitle">Carpeta: ESTRENOS (204 películas escaneadas) — Actualizado: 24/10/2026 19:15</div>
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('7d', event)">Últimos 7 Días</button>
+        <button class="tab-btn" onclick="switchTab('30d', event)">Últimos 30 Días</button>
+        <button class="tab-btn" onclick="switchTab('365d', event)">Últimos 365 Días</button>
+        <button class="tab-btn" onclick="switchTab('siempre', event)">Desde Siempre</button>
+    </div>
+    <div id="tab-7d" class="tab-content active">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS VISTOS (ÚLTIMOS 7 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[315 vistas]</span> <a href="https://t.me/c/3937252785/88" target="_blank">LA BOLA NEGRA (2026)</a></li>
+                    <li><span class="metric">[263 vistas]</span> <a href="https://t.me/c/2888958514/210" target="_blank">PÁLIDA LUZ EN LAS COLINAS (2025/2026)</a></li>
+                    <li><span class="metric">[234 vistas]</span> <a href="https://t.me/c/2888958514/216" target="_blank">UN DESLIZ PELIGROSO (2024/2026)</a></li>
+                    <li><span class="metric">[230 vistas]</span> <a href="https://t.me/c/2888958514/214" target="_blank">EL AMOR DE TU VIDA (2026)</a></li>
+                    <li><span class="metric">[221 vistas]</span> <a href="https://t.me/c/2800784956/259" target="_blank">OPERACIÓN: MATAR AL PAPA (2025)</a></li>
+                    <li><span class="metric">[207 vistas]</span> <a href="https://t.me/c/2888958514/221" target="_blank">PROMESAS DE EMBARAZO (2023/2026)</a></li>
+                    <li><span class="metric">[198 vistas]</span> <a href="https://t.me/c/2888958514/256" target="_blank">MORIR NO SIEMPRE SALE BIEN (2026)</a></li>
+                    <li><span class="metric">[195 vistas]</span> <a href="https://t.me/c/2888958514/228" target="_blank">ASESINATO EN HIGHLAND MANOR (2026)</a></li>
+                    <li><span class="metric">[195 vistas]</span> <a href="https://t.me/c/2800784956/256" target="_blank">CADA DÍA NACE UN LISTO (2026)</a></li>
+                    <li><span class="metric">[193 vistas]</span> <a href="https://t.me/c/2888958514/240" target="_blank">LA LUZ (2026)</a></li>
+                    <li><span class="metric">[193 vistas]</span> <a href="https://t.me/c/2888958514/231" target="_blank">INFIERNO EN EL PARAISO (2025/2026)</a></li>
+                    <li><span class="metric">[187 vistas]</span> <a href="https://t.me/c/2888958514/237" target="_blank">SOLOMAMMA (2025)</a></li>
+                    <li><span class="metric">[186 vistas]</span> <a href="https://t.me/c/2788611835/208" target="_blank">TU, YO Y LA TOSCANA (2026)</a></li>
+                    <li><span class="metric">[184 vistas]</span> <a href="https://t.me/c/2888958514/242" target="_blank">BAD APPLES (2025)</a></li>
+                    <li><span class="metric">[184 vistas]</span> <a href="https://t.me/c/2800784956/252" target="_blank">825 CAMINO FORESTAL  (2025)</a></li>
+                    <li><span class="metric">[183 vistas]</span> <a href="https://t.me/c/3937252785/86" target="_blank">LO CARGA EL DIABLO (2024/2026)</a></li>
+                    <li><span class="metric">[181 vistas]</span> <a href="https://t.me/c/2888958514/249" target="_blank">LOS ÚLTIMOS DÍAS DE MARÍA ANTONIETA (2024)</a></li>
+                    <li><span class="metric">[179 vistas]</span> <a href="https://t.me/c/2888958514/244" target="_blank">KANGAROO: UNA AVENTURA EN AUSTRALIA (2025)</a></li>
+                    <li><span class="metric">[177 vistas]</span> <a href="https://t.me/c/2788611835/202" target="_blank">EL CASO HUBENER (2025)</a></li>
+                    <li><span class="metric">[173 vistas]</span> <a href="https://t.me/c/2888958514/251" target="_blank">IDENTIFICATION (2025)</a></li>
+                    <li><span class="metric">[173 vistas]</span> <a href="https://t.me/c/2800784956/254" target="_blank">LA TORMENTA (2026)</a></li>
+                    <li><span class="metric">[170 vistas]</span> <a href="https://t.me/c/3937252785/91" target="_blank">MAGALLANES (2025)</a></li>
+                    <li><span class="metric">[169 vistas]</span> <a href="https://t.me/c/2888958514/261" target="_blank">SOCIEDAD SECRETA DE MENTIRAS (2023/2026)</a></li>
+                    <li><span class="metric">[166 vistas]</span> <a href="https://t.me/c/2888958514/259" target="_blank">SU ÚNICO HIJO (2023/2026)</a></li>
+                    <li><span class="metric">[162 vistas]</span> <a href="https://t.me/c/3937252785/84" target="_blank">VIAJE AL PAÍS DE LOS BLANCOS (2026)</a></li>
+                    <li><span class="metric">[141 vistas]</span> <a href="https://t.me/c/2788611835/204" target="_blank">MALLORCA CONFIDENCIAL (2026)</a></li>
+                    <li><span class="metric">[139 vistas]</span> <a href="https://t.me/c/2788611835/206" target="_blank">RICOS SIN DINERO (2026)</a></li>
+                    <li><span class="metric">[132 vistas]</span> <a href="https://t.me/c/2888958514/274" target="_blank">DEAD RESIDENTS EVIL (2026)</a></li>
+                    <li><span class="metric">[124 vistas]</span> <a href="https://t.me/c/2888958514/264" target="_blank">TODOS LOS COLORES (2026)</a></li>
+                    <li><span class="metric">[120 vistas]</span> <a href="https://t.me/c/2888958514/271" target="_blank">NOCHE FATÍDICA (2026)</a></li>
+                    <li><span class="metric">[119 vistas]</span> <a href="https://t.me/c/2888958514/269" target="_blank">EL SUEÑO AMERICANO (2026)</a></li>
+                    <li><span class="metric">[114 vistas]</span> <a href="https://t.me/c/2888958514/267" target="_blank">ERUPCJA (2026)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS REENVIADOS (ÚLTIMOS 7 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[104 reenvíos]</span> <a href="https://t.me/c/3937252785/88" target="_blank">LA BOLA NEGRA (2026)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/2888958514/216" target="_blank">UN DESLIZ PELIGROSO (2024/2026)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/2888958514/259" target="_blank">SU ÚNICO HIJO (2023/2026)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/2888958514/228" target="_blank">ASESINATO EN HIGHLAND MANOR (2026)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/3937252785/91" target="_blank">MAGALLANES (2025)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/2888958514/261" target="_blank">SOCIEDAD SECRETA DE MENTIRAS (2023/2026)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/2888958514/214" target="_blank">EL AMOR DE TU VIDA (2026)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/2888958514/210" target="_blank">PÁLIDA LUZ EN LAS COLINAS (2025/2026)</a></li>
+                    <li><span class="metric">[34 reenvíos]</span> <a href="https://t.me/c/2888958514/251" target="_blank">IDENTIFICATION (2025)</a></li>
+                    <li><span class="metric">[33 reenvíos]</span> <a href="https://t.me/c/3937252785/86" target="_blank">LO CARGA EL DIABLO (2024/2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2888958514/269" target="_blank">EL SUEÑO AMERICANO (2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2888958514/256" target="_blank">MORIR NO SIEMPRE SALE BIEN (2026)</a></li>
+                    <li><span class="metric">[31 reenvíos]</span> <a href="https://t.me/c/2888958514/271" target="_blank">NOCHE FATÍDICA (2026)</a></li>
+                    <li><span class="metric">[29 reenvíos]</span> <a href="https://t.me/c/2800784956/256" target="_blank">CADA DÍA NACE UN LISTO (2026)</a></li>
+                    <li><span class="metric">[29 reenvíos]</span> <a href="https://t.me/c/2800784956/252" target="_blank">825 CAMINO FORESTAL  (2025)</a></li>
+                    <li><span class="metric">[28 reenvíos]</span> <a href="https://t.me/c/3937252785/84" target="_blank">VIAJE AL PAÍS DE LOS BLANCOS (2026)</a></li>
+                    <li><span class="metric">[28 reenvíos]</span> <a href="https://t.me/c/2888958514/267" target="_blank">ERUPCJA (2026)</a></li>
+                    <li><span class="metric">[28 reenvíos]</span> <a href="https://t.me/c/2888958514/244" target="_blank">KANGAROO: UNA AVENTURA EN AUSTRALIA (2025)</a></li>
+                    <li><span class="metric">[27 reenvíos]</span> <a href="https://t.me/c/2888958514/274" target="_blank">DEAD RESIDENTS EVIL (2026)</a></li>
+                    <li><span class="metric">[27 reenvíos]</span> <a href="https://t.me/c/2888958514/221" target="_blank">PROMESAS DE EMBARAZO (2023/2026)</a></li>
+                    <li><span class="metric">[25 reenvíos]</span> <a href="https://t.me/c/2800784956/254" target="_blank">LA TORMENTA (2026)</a></li>
+                    <li><span class="metric">[24 reenvíos]</span> <a href="https://t.me/c/2888958514/240" target="_blank">LA LUZ (2026)</a></li>
+                    <li><span class="metric">[24 reenvíos]</span> <a href="https://t.me/c/2800784956/259" target="_blank">OPERACIÓN: MATAR AL PAPA (2025)</a></li>
+                    <li><span class="metric">[23 reenvíos]</span> <a href="https://t.me/c/2888958514/242" target="_blank">BAD APPLES (2025)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/2888958514/231" target="_blank">INFIERNO EN EL PARAISO (2025/2026)</a></li>
+                    <li><span class="metric">[19 reenvíos]</span> <a href="https://t.me/c/2788611835/208" target="_blank">TU, YO Y LA TOSCANA (2026)</a></li>
+                    <li><span class="metric">[18 reenvíos]</span> <a href="https://t.me/c/2788611835/204" target="_blank">MALLORCA CONFIDENCIAL (2026)</a></li>
+                    <li><span class="metric">[17 reenvíos]</span> <a href="https://t.me/c/2788611835/202" target="_blank">EL CASO HUBENER (2025)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/2888958514/249" target="_blank">LOS ÚLTIMOS DÍAS DE MARÍA ANTONIETA (2024)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/2888958514/237" target="_blank">SOLOMAMMA (2025)</a></li>
+                    <li><span class="metric">[15 reenvíos]</span> <a href="https://t.me/c/2788611835/206" target="_blank">RICOS SIN DINERO (2026)</a></li>
+                    <li><span class="metric">[14 reenvíos]</span> <a href="https://t.me/c/2888958514/264" target="_blank">TODOS LOS COLORES (2026)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="tab-30d" class="tab-content">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS VISTOS (ÚLTIMOS 30 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[651 vistas]</span> <a href="https://t.me/c/2788611835/193" target="_blank">SPIDER-MAN: BRAND NEW DAY (2026)</a></li>
+                    <li><span class="metric">[617 vistas]</span> <a href="https://t.me/c/2788611835/196" target="_blank">INSIDIOUS: FUERA DEL MÁS ALLÁ (2026)</a></li>
+                    <li><span class="metric">[478 vistas]</span> <a href="https://t.me/c/2600602354/218" target="_blank">UNABOMBER (2026)</a></li>
+                    <li><span class="metric">[442 vistas]</span> <a href="https://t.me/c/2600602354/245" target="_blank">NORMAL (2025)</a></li>
+                    <li><span class="metric">[439 vistas]</span> <a href="https://t.me/c/2788611835/145" target="_blank">LA CASA EN EL ÁRBOL (2025)</a></li>
+                    <li><span class="metric">[426 vistas]</span> <a href="https://t.me/c/2600602354/223" target="_blank">PUÑO DE LEÓN (2026)</a></li>
+                    <li><span class="metric">[425 vistas]</span> <a href="https://t.me/c/2788611835/184" target="_blank">SOULM8TE (2026)</a></li>
+                    <li><span class="metric">[423 vistas]</span> <a href="https://t.me/c/2788611835/151" target="_blank">UN LUGAR LLAMADO SILENCIO (2024/2026)</a></li>
+                    <li><span class="metric">[417 vistas]</span> <a href="https://t.me/c/2600602354/221" target="_blank">LA MUERTE DE ROBIN HOOD (2026)</a></li>
+                    <li><span class="metric">[409 vistas]</span> <a href="https://t.me/c/2788611835/190" target="_blank">RECREACIÓN DE UN ASESINATO (2025)</a></li>
+                    <li><span class="metric">[404 vistas]</span> <a href="https://t.me/c/2788611835/174" target="_blank">LA COLECCIONISTA (2025)</a></li>
+                    <li><span class="metric">[402 vistas]</span> <a href="https://t.me/c/2698448300/183" target="_blank">PESADILLA EN VACACIONES (2023/2026)</a></li>
+                    <li><span class="metric">[395 vistas]</span> <a href="https://t.me/c/2788611835/177" target="_blank">LA PATRIA PERDIDA (2023)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2788611835/182" target="_blank">RENOIR (2025)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2698448300/212" target="_blank">TERMINATOR: LA SAGA CONTRA LAS MÁQUINAS (2025)</a></li>
+                    <li><span class="metric">[385 vistas]</span> <a href="https://t.me/c/2788611835/171" target="_blank">LAS CARTAS DE LA VIDA (2026)</a></li>
+                    <li><span class="metric">[374 vistas]</span> <a href="https://t.me/c/2788611835/143" target="_blank">ALGO VIEJO, ALGO NUEVO, ALGO PRESTADO (2024/2026)</a></li>
+                    <li><span class="metric">[370 vistas]</span> <a href="https://t.me/c/2788611835/166" target="_blank">DEAD ZONE (2022/2026)</a></li>
+                    <li><span class="metric">[363 vistas]</span> <a href="https://t.me/c/2788611835/160" target="_blank">LOMU (2026)</a></li>
+                    <li><span class="metric">[360 vistas]</span> <a href="https://t.me/c/2788611835/169" target="_blank">IVÁN & HADOUM (2026)</a></li>
+                    <li><span class="metric">[360 vistas]</span> <a href="https://t.me/c/2698448300/214" target="_blank">HOMO PLASTIC (2025)</a></li>
+                    <li><span class="metric">[359 vistas]</span> <a href="https://t.me/c/2788611835/158" target="_blank">EL OTRO CHIQUITO (2026)</a></li>
+                    <li><span class="metric">[358 vistas]</span> <a href="https://t.me/c/2788611835/156" target="_blank">EL AUTOBÚS. LA HUELGA DE LA SELECCIÓN FRANCESA (2026)</a></li>
+                    <li><span class="metric">[358 vistas]</span> <a href="https://t.me/c/2800784956/191" target="_blank">ROBARME LA VIDA (2024)</a></li>
+                    <li><span class="metric">[354 vistas]</span> <a href="https://t.me/c/2600602354/208" target="_blank">LA BESTIA EN LA JUNGLA (2023)</a></li>
+                    <li><span class="metric">[353 vistas]</span> <a href="https://t.me/c/2600602354/212" target="_blank">NIRVANNA THE BAND THE SHOW THE MOVIE (2025)</a></li>
+                    <li><span class="metric">[348 vistas]</span> <a href="https://t.me/c/2600602354/216" target="_blank">EL CLUB GOURMET (2025)</a></li>
+                    <li><span class="metric">[343 vistas]</span> <a href="https://t.me/c/2800784956/185" target="_blank">EL LABORATORIO MÁGICO (2024)</a></li>
+                    <li><span class="metric">[340 vistas]</span> <a href="https://t.me/c/2698448300/201" target="_blank">MATCHBOX: LA PELÍCULA (2026)</a></li>
+                    <li><span class="metric">[337 vistas]</span> <a href="https://t.me/c/2698448300/217" target="_blank">UNA NOCHE AL AÑO (2026)</a></li>
+                    <li><span class="metric">[333 vistas]</span> <a href="https://t.me/c/2600602354/229" target="_blank">LAS CATADORAS DEL HITLER (2025)</a></li>
+                    <li><span class="metric">[329 vistas]</span> <a href="https://t.me/c/2800784956/189" target="_blank">NO HAMBURG, NO BEATLES (2025)</a></li>
+                    <li><span class="metric">[329 vistas]</span> <a href="https://t.me/c/2600602354/214" target="_blank">REXACH. CORRER ES DE COBARDES (2026)</a></li>
+                    <li><span class="metric">[327 vistas]</span> <a href="https://t.me/c/2698448300/219" target="_blank">EN DIRECTO (2026)</a></li>
+                    <li><span class="metric">[325 vistas]</span> <a href="https://t.me/c/2698448300/209" target="_blank">CADA VEZ MENIOS EXTRAÑO (2026)</a></li>
+                    <li><span class="metric">[315 vistas]</span> <a href="https://t.me/c/3937252785/88" target="_blank">LA BOLA NEGRA (2026)</a></li>
+                    <li><span class="metric">[308 vistas]</span> <a href="https://t.me/c/2800784956/209" target="_blank">PRÁCTICAMENTE MAGIA 2 (2026)</a></li>
+                    <li><span class="metric">[307 vistas]</span> <a href="https://t.me/c/2698448300/207" target="_blank">SÓLO ES UNA PELÍCULA (2025)</a></li>
+                    <li><span class="metric">[300 vistas]</span> <a href="https://t.me/c/2600602354/238" target="_blank">LLAMADA PARA UN ASESINATO (2023/2026)</a></li>
+                    <li><span class="metric">[294 vistas]</span> <a href="https://t.me/c/2698448300/199" target="_blank">LOS HIPERBÓREOS (2024/2026)</a></li>
+                    <li><span class="metric">[293 vistas]</span> <a href="https://t.me/c/2800784956/206" target="_blank">STRANGERS: CAPÍTULO FINAL (2026)</a></li>
+                    <li><span class="metric">[293 vistas]</span> <a href="https://t.me/c/2698448300/187" target="_blank">PEAU À PEAU (2025)</a></li>
+                    <li><span class="metric">[292 vistas]</span> <a href="https://t.me/c/2698448300/193" target="_blank">ANIMALES (2026)</a></li>
+                    <li><span class="metric">[292 vistas]</span> <a href="https://t.me/c/2600602354/241" target="_blank">MONONOKE III: LA MALDICIÓN DE LA SERPIENTE (2026)</a></li>
+                    <li><span class="metric">[291 vistas]</span> <a href="https://t.me/c/2600602354/251" target="_blank">LOS LEGENDARIOS (2025)</a></li>
+                    <li><span class="metric">[290 vistas]</span> <a href="https://t.me/c/2698448300/222" target="_blank">DOS DÍAS (2026)</a></li>
+                    <li><span class="metric">[289 vistas]</span> <a href="https://t.me/c/2800784956/201" target="_blank">AMOR CRUEL (2026)</a></li>
+                    <li><span class="metric">[287 vistas]</span> <a href="https://t.me/c/2698448300/185" target="_blank">MENTIRAS PERFECTAS (2021/2026)</a></li>
+                    <li><span class="metric">[281 vistas]</span> <a href="https://t.me/c/2600602354/231" target="_blank">STRUNG (2026)</a></li>
+                    <li><span class="metric">[280 vistas]</span> <a href="https://t.me/c/2800784956/204" target="_blank">EL COMPLEJO (2025)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS REENVIADOS (ÚLTIMOS 30 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[138 reenvíos]</span> <a href="https://t.me/c/2788611835/193" target="_blank">SPIDER-MAN: BRAND NEW DAY (2026)</a></li>
+                    <li><span class="metric">[104 reenvíos]</span> <a href="https://t.me/c/3937252785/88" target="_blank">LA BOLA NEGRA (2026)</a></li>
+                    <li><span class="metric">[100 reenvíos]</span> <a href="https://t.me/c/2600602354/245" target="_blank">NORMAL (2025)</a></li>
+                    <li><span class="metric">[94 reenvíos]</span> <a href="https://t.me/c/2788611835/196" target="_blank">INSIDIOUS: FUERA DEL MÁS ALLÁ (2026)</a></li>
+                    <li><span class="metric">[74 reenvíos]</span> <a href="https://t.me/c/2788611835/145" target="_blank">LA CASA EN EL ÁRBOL (2025)</a></li>
+                    <li><span class="metric">[66 reenvíos]</span> <a href="https://t.me/c/2600602354/218" target="_blank">UNABOMBER (2026)</a></li>
+                    <li><span class="metric">[60 reenvíos]</span> <a href="https://t.me/c/2600602354/223" target="_blank">PUÑO DE LEÓN (2026)</a></li>
+                    <li><span class="metric">[55 reenvíos]</span> <a href="https://t.me/c/2788611835/166" target="_blank">DEAD ZONE (2022/2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2800784956/233" target="_blank">TRES DE MÁS (2026)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/2788611835/151" target="_blank">UN LUGAR LLAMADO SILENCIO (2024/2026)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/2600602354/221" target="_blank">LA MUERTE DE ROBIN HOOD (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2800784956/243" target="_blank">HACIENDO AMIGOS (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2698448300/201" target="_blank">MATCHBOX: LA PELÍCULA (2026)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2788611835/174" target="_blank">LA COLECCIONISTA (2025)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2800784956/191" target="_blank">ROBARME LA VIDA (2024)</a></li>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/2698448300/183" target="_blank">PESADILLA EN VACACIONES (2023/2026)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/2698448300/212" target="_blank">TERMINATOR: LA SAGA CONTRA LAS MÁQUINAS (2025)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/2600602354/238" target="_blank">LLAMADA PARA UN ASESINATO (2023/2026)</a></li>
+                    <li><span class="metric">[44 reenvíos]</span> <a href="https://t.me/c/2788611835/158" target="_blank">EL OTRO CHIQUITO (2026)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/2800784956/245" target="_blank">TENZING (2026)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/2888958514/216" target="_blank">UN DESLIZ PELIGROSO (2024/2026)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/2698448300/222" target="_blank">DOS DÍAS (2026)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/2600602354/212" target="_blank">NIRVANNA THE BAND THE SHOW THE MOVIE (2025)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/2888958514/259" target="_blank">SU ÚNICO HIJO (2023/2026)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/2698448300/217" target="_blank">UNA NOCHE AL AÑO (2026)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/2888958514/228" target="_blank">ASESINATO EN HIGHLAND MANOR (2026)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/2788611835/184" target="_blank">SOULM8TE (2026)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/2800784956/189" target="_blank">NO HAMBURG, NO BEATLES (2025)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/2600602354/216" target="_blank">EL CLUB GOURMET (2025)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/3937252785/91" target="_blank">MAGALLANES (2025)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/2888958514/261" target="_blank">SOCIEDAD SECRETA DE MENTIRAS (2023/2026)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/2800784956/201" target="_blank">AMOR CRUEL (2026)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/2698448300/193" target="_blank">ANIMALES (2026)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/2888958514/214" target="_blank">EL AMOR DE TU VIDA (2026)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/2888958514/210" target="_blank">PÁLIDA LUZ EN LAS COLINAS (2025/2026)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/2800784956/247" target="_blank">MASTERPLAN (2026)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/2698448300/195" target="_blank">AMSTERDAMNED II: MISTERIO EN LOS CANALES. EL REGRESO (2025/2026)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/2698448300/187" target="_blank">PEAU À PEAU (2025)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/2698448300/185" target="_blank">MENTIRAS PERFECTAS (2021/2026)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/2600602354/241" target="_blank">MONONOKE III: LA MALDICIÓN DE LA SERPIENTE (2026)</a></li>
+                    <li><span class="metric">[34 reenvíos]</span> <a href="https://t.me/c/2888958514/251" target="_blank">IDENTIFICATION (2025)</a></li>
+                    <li><span class="metric">[33 reenvíos]</span> <a href="https://t.me/c/3937252785/86" target="_blank">LO CARGA EL DIABLO (2024/2026)</a></li>
+                    <li><span class="metric">[33 reenvíos]</span> <a href="https://t.me/c/2788611835/171" target="_blank">LAS CARTAS DE LA VIDA (2026)</a></li>
+                    <li><span class="metric">[33 reenvíos]</span> <a href="https://t.me/c/2788611835/160" target="_blank">LOMU (2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2888958514/269" target="_blank">EL SUEÑO AMERICANO (2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2888958514/256" target="_blank">MORIR NO SIEMPRE SALE BIEN (2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2800784956/241" target="_blank">OMAHA (2025)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2800784956/206" target="_blank">STRANGERS: CAPÍTULO FINAL (2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2698448300/219" target="_blank">EN DIRECTO (2026)</a></li>
+                    <li><span class="metric">[32 reenvíos]</span> <a href="https://t.me/c/2698448300/214" target="_blank">HOMO PLASTIC (2025)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="tab-365d" class="tab-content">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS VISTOS (ÚLTIMOS 365 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[651 vistas]</span> <a href="https://t.me/c/2788611835/193" target="_blank">SPIDER-MAN: BRAND NEW DAY (2026)</a></li>
+                    <li><span class="metric">[617 vistas]</span> <a href="https://t.me/c/2788611835/196" target="_blank">INSIDIOUS: FUERA DEL MÁS ALLÁ (2026)</a></li>
+                    <li><span class="metric">[521 vistas]</span> <a href="https://t.me/c/2316929740/162" target="_blank">POSESIÓN INFERNAL: EN LLAMAS (2026)</a></li>
+                    <li><span class="metric">[503 vistas]</span> <a href="https://t.me/c/2533857425/244" target="_blank">EL FINAL DE OAK STREET (2026)</a></li>
+                    <li><span class="metric">[494 vistas]</span> <a href="https://t.me/c/2682126673/214" target="_blank">A LA DERIVA (2025)</a></li>
+                    <li><span class="metric">[492 vistas]</span> <a href="https://t.me/c/2682126673/217" target="_blank">VAIANA (2026)</a></li>
+                    <li><span class="metric">[478 vistas]</span> <a href="https://t.me/c/2600602354/218" target="_blank">UNABOMBER (2026)</a></li>
+                    <li><span class="metric">[443 vistas]</span> <a href="https://t.me/c/2682126673/191" target="_blank">PIZZA MOVIES (2026)</a></li>
+                    <li><span class="metric">[442 vistas]</span> <a href="https://t.me/c/2600602354/245" target="_blank">NORMAL (2025)</a></li>
+                    <li><span class="metric">[439 vistas]</span> <a href="https://t.me/c/2788611835/145" target="_blank">LA CASA EN EL ÁRBOL (2025)</a></li>
+                    <li><span class="metric">[439 vistas]</span> <a href="https://t.me/c/2533857425/238" target="_blank">THE FURIOUS (2025/2026)</a></li>
+                    <li><span class="metric">[428 vistas]</span> <a href="https://t.me/c/2682126673/186" target="_blank">BAJO TUS PIES (2026)</a></li>
+                    <li><span class="metric">[426 vistas]</span> <a href="https://t.me/c/2600602354/223" target="_blank">PUÑO DE LEÓN (2026)</a></li>
+                    <li><span class="metric">[425 vistas]</span> <a href="https://t.me/c/2788611835/184" target="_blank">SOULM8TE (2026)</a></li>
+                    <li><span class="metric">[423 vistas]</span> <a href="https://t.me/c/2788611835/151" target="_blank">UN LUGAR LLAMADO SILENCIO (2024/2026)</a></li>
+                    <li><span class="metric">[417 vistas]</span> <a href="https://t.me/c/2600602354/221" target="_blank">LA MUERTE DE ROBIN HOOD (2026)</a></li>
+                    <li><span class="metric">[409 vistas]</span> <a href="https://t.me/c/2788611835/190" target="_blank">RECREACIÓN DE UN ASESINATO (2025)</a></li>
+                    <li><span class="metric">[404 vistas]</span> <a href="https://t.me/c/2788611835/174" target="_blank">LA COLECCIONISTA (2025)</a></li>
+                    <li><span class="metric">[404 vistas]</span> <a href="https://t.me/c/2682126673/202" target="_blank">BLAS CABRERA Y LA HISTORIA DE LA FÍSICA (2025)</a></li>
+                    <li><span class="metric">[402 vistas]</span> <a href="https://t.me/c/2698448300/183" target="_blank">PESADILLA EN VACACIONES (2023/2026)</a></li>
+                    <li><span class="metric">[400 vistas]</span> <a href="https://t.me/c/2600602354/189" target="_blank">HOLD THE FORT (2025)</a></li>
+                    <li><span class="metric">[399 vistas]</span> <a href="https://t.me/c/2533857425/274" target="_blank">FUKUSHIMA: UNA PESADILLA NUCLEAR (2026)</a></li>
+                    <li><span class="metric">[397 vistas]</span> <a href="https://t.me/c/2682126673/197" target="_blank">LA IA ¿OPTIMISMO O APOCALIPSIS? (2026)</a></li>
+                    <li><span class="metric">[395 vistas]</span> <a href="https://t.me/c/2788611835/177" target="_blank">LA PATRIA PERDIDA (2023)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2788611835/182" target="_blank">RENOIR (2025)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2698448300/212" target="_blank">TERMINATOR: LA SAGA CONTRA LAS MÁQUINAS (2025)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2525136677/252" target="_blank">BACKROOMS (2026)</a></li>
+                    <li><span class="metric">[388 vistas]</span> <a href="https://t.me/c/2533857425/248" target="_blank">UN DESTELLO DE ESPERANZA (2023/2026)</a></li>
+                    <li><span class="metric">[385 vistas]</span> <a href="https://t.me/c/2788611835/171" target="_blank">LAS CARTAS DE LA VIDA (2026)</a></li>
+                    <li><span class="metric">[384 vistas]</span> <a href="https://t.me/c/2316929740/179" target="_blank">EL SER QUERIDO (2026)</a></li>
+                    <li><span class="metric">[383 vistas]</span> <a href="https://t.me/c/2533857425/223" target="_blank">SARAH'S OIL: EL ORO NEGRO (2025)</a></li>
+                    <li><span class="metric">[382 vistas]</span> <a href="https://t.me/c/2682126673/210" target="_blank">SIN UNA PALABRA (2024/2026)</a></li>
+                    <li><span class="metric">[380 vistas]</span> <a href="https://t.me/c/2751020561/236" target="_blank">LA LUCHA (2025)</a></li>
+                    <li><span class="metric">[380 vistas]</span> <a href="https://t.me/c/2751020561/224" target="_blank">LOS JUSTOS (2026)</a></li>
+                    <li><span class="metric">[376 vistas]</span> <a href="https://t.me/c/2316929740/203" target="_blank">EL AÑO NUEVO QUE NUNCA LLEGÓ (2024/2026)</a></li>
+                    <li><span class="metric">[375 vistas]</span> <a href="https://t.me/c/2682126673/239" target="_blank">UN TALENTO ÚNICO (2026)</a></li>
+                    <li><span class="metric">[375 vistas]</span> <a href="https://t.me/c/2682126673/220" target="_blank">FURIA DE LOS THUNDERMAN (2026)</a></li>
+                    <li><span class="metric">[375 vistas]</span> <a href="https://t.me/c/2751020561/245" target="_blank">A LA CARRERA (2026)</a></li>
+                    <li><span class="metric">[374 vistas]</span> <a href="https://t.me/c/2788611835/143" target="_blank">ALGO VIEJO, ALGO NUEVO, ALGO PRESTADO (2024/2026)</a></li>
+                    <li><span class="metric">[371 vistas]</span> <a href="https://t.me/c/2533857425/241" target="_blank">UNA NOCHE EN ZOOPOLIS (2024/2026)</a></li>
+                    <li><span class="metric">[370 vistas]</span> <a href="https://t.me/c/2788611835/166" target="_blank">DEAD ZONE (2022/2026)</a></li>
+                    <li><span class="metric">[369 vistas]</span> <a href="https://t.me/c/2682126673/253" target="_blank">EJERCICIOS PARA VER A DIOS (2025)</a></li>
+                    <li><span class="metric">[367 vistas]</span> <a href="https://t.me/c/2533857425/235" target="_blank">HASTA EL FIN DEL MUNDO (2026)</a></li>
+                    <li><span class="metric">[367 vistas]</span> <a href="https://t.me/c/2533857425/230" target="_blank">BEAST (LA BESTIA) (2026)</a></li>
+                    <li><span class="metric">[366 vistas]</span> <a href="https://t.me/c/2751020561/275" target="_blank">GIGANTE (2025/2026)</a></li>
+                    <li><span class="metric">[365 vistas]</span> <a href="https://t.me/c/2682126673/223" target="_blank">CHOMPOO: LA NIÑA DESAPARECIDA Y OLVIDADA (2026)</a></li>
+                    <li><span class="metric">[364 vistas]</span> <a href="https://t.me/c/2600602354/195" target="_blank">UN ÚLTIMO DISPARO (2026)</a></li>
+                    <li><span class="metric">[363 vistas]</span> <a href="https://t.me/c/2788611835/160" target="_blank">LOMU (2026)</a></li>
+                    <li><span class="metric">[363 vistas]</span> <a href="https://t.me/c/2600602354/205" target="_blank">LETRAS ROBADAS (2026)</a></li>
+                    <li><span class="metric">[360 vistas]</span> <a href="https://t.me/c/2788611835/169" target="_blank">IVÁN & HADOUM (2026)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS REENVIADOS (ÚLTIMOS 365 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[138 reenvíos]</span> <a href="https://t.me/c/2788611835/193" target="_blank">SPIDER-MAN: BRAND NEW DAY (2026)</a></li>
+                    <li><span class="metric">[104 reenvíos]</span> <a href="https://t.me/c/3937252785/88" target="_blank">LA BOLA NEGRA (2026)</a></li>
+                    <li><span class="metric">[100 reenvíos]</span> <a href="https://t.me/c/2600602354/245" target="_blank">NORMAL (2025)</a></li>
+                    <li><span class="metric">[95 reenvíos]</span> <a href="https://t.me/c/2682126673/217" target="_blank">VAIANA (2026)</a></li>
+                    <li><span class="metric">[94 reenvíos]</span> <a href="https://t.me/c/2788611835/196" target="_blank">INSIDIOUS: FUERA DEL MÁS ALLÁ (2026)</a></li>
+                    <li><span class="metric">[90 reenvíos]</span> <a href="https://t.me/c/2533857425/244" target="_blank">EL FINAL DE OAK STREET (2026)</a></li>
+                    <li><span class="metric">[87 reenvíos]</span> <a href="https://t.me/c/2525136677/252" target="_blank">BACKROOMS (2026)</a></li>
+                    <li><span class="metric">[86 reenvíos]</span> <a href="https://t.me/c/2316929740/162" target="_blank">POSESIÓN INFERNAL: EN LLAMAS (2026)</a></li>
+                    <li><span class="metric">[85 reenvíos]</span> <a href="https://t.me/c/2533857425/238" target="_blank">THE FURIOUS (2025/2026)</a></li>
+                    <li><span class="metric">[74 reenvíos]</span> <a href="https://t.me/c/2788611835/145" target="_blank">LA CASA EN EL ÁRBOL (2025)</a></li>
+                    <li><span class="metric">[73 reenvíos]</span> <a href="https://t.me/c/2682126673/214" target="_blank">A LA DERIVA (2025)</a></li>
+                    <li><span class="metric">[68 reenvíos]</span> <a href="https://t.me/c/2316929740/179" target="_blank">EL SER QUERIDO (2026)</a></li>
+                    <li><span class="metric">[66 reenvíos]</span> <a href="https://t.me/c/2600602354/218" target="_blank">UNABOMBER (2026)</a></li>
+                    <li><span class="metric">[64 reenvíos]</span> <a href="https://t.me/c/2533857425/248" target="_blank">UN DESTELLO DE ESPERANZA (2023/2026)</a></li>
+                    <li><span class="metric">[60 reenvíos]</span> <a href="https://t.me/c/2600602354/223" target="_blank">PUÑO DE LEÓN (2026)</a></li>
+                    <li><span class="metric">[60 reenvíos]</span> <a href="https://t.me/c/2600602354/189" target="_blank">HOLD THE FORT (2025)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2533857425/250" target="_blank">LA VENGANZA DEL HOMBRE DEL SACO (2025/2026)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2682126673/239" target="_blank">UN TALENTO ÚNICO (2026)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2682126673/197" target="_blank">LA IA ¿OPTIMISMO O APOCALIPSIS? (2026)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2682126673/191" target="_blank">PIZZA MOVIES (2026)</a></li>
+                    <li><span class="metric">[57 reenvíos]</span> <a href="https://t.me/c/2751020561/224" target="_blank">LOS JUSTOS (2026)</a></li>
+                    <li><span class="metric">[56 reenvíos]</span> <a href="https://t.me/c/2682126673/241" target="_blank">LOS MEJORES AÑOS DE NUESTRA VIDA (2026)</a></li>
+                    <li><span class="metric">[56 reenvíos]</span> <a href="https://t.me/c/2751020561/268" target="_blank">MAYDAY (2026)</a></li>
+                    <li><span class="metric">[56 reenvíos]</span> <a href="https://t.me/c/2751020561/245" target="_blank">A LA CARRERA (2026)</a></li>
+                    <li><span class="metric">[55 reenvíos]</span> <a href="https://t.me/c/2788611835/166" target="_blank">DEAD ZONE (2022/2026)</a></li>
+                    <li><span class="metric">[54 reenvíos]</span> <a href="https://t.me/c/2682126673/186" target="_blank">BAJO TUS PIES (2026)</a></li>
+                    <li><span class="metric">[53 reenvíos]</span> <a href="https://t.me/c/2751020561/249" target="_blank">HELLCAT (2025)</a></li>
+                    <li><span class="metric">[53 reenvíos]</span> <a href="https://t.me/c/2316929740/198" target="_blank">SUSURRAN TU NOMBRE (2026)</a></li>
+                    <li><span class="metric">[52 reenvíos]</span> <a href="https://t.me/c/2533857425/280" target="_blank">102 MINUTOS DENTRO DE LAS TORRES (2026)</a></li>
+                    <li><span class="metric">[52 reenvíos]</span> <a href="https://t.me/c/2682126673/210" target="_blank">SIN UNA PALABRA (2024/2026)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2533857425/274" target="_blank">FUKUSHIMA: UNA PESADILLA NUCLEAR (2026)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2533857425/230" target="_blank">BEAST (LA BESTIA) (2026)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2533857425/223" target="_blank">SARAH'S OIL: EL ORO NEGRO (2025)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2751020561/212" target="_blank">COUTURE: ALTA COSTURA (2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2800784956/233" target="_blank">TRES DE MÁS (2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2533857425/277" target="_blank">HOKUM (2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2682126673/248" target="_blank">GRACIAS, EQUIPO (2026)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/2788611835/151" target="_blank">UN LUGAR LLAMADO SILENCIO (2024/2026)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/2600602354/221" target="_blank">LA MUERTE DE ROBIN HOOD (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2800784956/243" target="_blank">HACIENDO AMIGOS (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2698448300/201" target="_blank">MATCHBOX: LA PELÍCULA (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2533857425/265" target="_blank">JUAN TAMARIZ: AMOR Y MAGIA (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2682126673/250" target="_blank">ASESINATO EN LA 3ª PLANTA (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2316929740/172" target="_blank">ZONA 3 (2025)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2788611835/174" target="_blank">LA COLECCIONISTA (2025)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2800784956/191" target="_blank">ROBARME LA VIDA (2024)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2600602354/205" target="_blank">LETRAS ROBADAS (2026)</a></li>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/2698448300/183" target="_blank">PESADILLA EN VACACIONES (2023/2026)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/2698448300/212" target="_blank">TERMINATOR: LA SAGA CONTRA LAS MÁQUINAS (2025)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/2600602354/238" target="_blank">LLAMADA PARA UN ASESINATO (2023/2026)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="tab-siempre" class="tab-content">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS VISTOS (DESDE SIEMPRE)</h2>
+                <ol>
+                    <li><span class="metric">[651 vistas]</span> <a href="https://t.me/c/2788611835/193" target="_blank">SPIDER-MAN: BRAND NEW DAY (2026)</a></li>
+                    <li><span class="metric">[617 vistas]</span> <a href="https://t.me/c/2788611835/196" target="_blank">INSIDIOUS: FUERA DEL MÁS ALLÁ (2026)</a></li>
+                    <li><span class="metric">[521 vistas]</span> <a href="https://t.me/c/2316929740/162" target="_blank">POSESIÓN INFERNAL: EN LLAMAS (2026)</a></li>
+                    <li><span class="metric">[503 vistas]</span> <a href="https://t.me/c/2533857425/244" target="_blank">EL FINAL DE OAK STREET (2026)</a></li>
+                    <li><span class="metric">[494 vistas]</span> <a href="https://t.me/c/2682126673/214" target="_blank">A LA DERIVA (2025)</a></li>
+                    <li><span class="metric">[492 vistas]</span> <a href="https://t.me/c/2682126673/217" target="_blank">VAIANA (2026)</a></li>
+                    <li><span class="metric">[478 vistas]</span> <a href="https://t.me/c/2600602354/218" target="_blank">UNABOMBER (2026)</a></li>
+                    <li><span class="metric">[443 vistas]</span> <a href="https://t.me/c/2682126673/191" target="_blank">PIZZA MOVIES (2026)</a></li>
+                    <li><span class="metric">[442 vistas]</span> <a href="https://t.me/c/2600602354/245" target="_blank">NORMAL (2025)</a></li>
+                    <li><span class="metric">[439 vistas]</span> <a href="https://t.me/c/2788611835/145" target="_blank">LA CASA EN EL ÁRBOL (2025)</a></li>
+                    <li><span class="metric">[439 vistas]</span> <a href="https://t.me/c/2533857425/238" target="_blank">THE FURIOUS (2025/2026)</a></li>
+                    <li><span class="metric">[428 vistas]</span> <a href="https://t.me/c/2682126673/186" target="_blank">BAJO TUS PIES (2026)</a></li>
+                    <li><span class="metric">[426 vistas]</span> <a href="https://t.me/c/2600602354/223" target="_blank">PUÑO DE LEÓN (2026)</a></li>
+                    <li><span class="metric">[425 vistas]</span> <a href="https://t.me/c/2788611835/184" target="_blank">SOULM8TE (2026)</a></li>
+                    <li><span class="metric">[423 vistas]</span> <a href="https://t.me/c/2788611835/151" target="_blank">UN LUGAR LLAMADO SILENCIO (2024/2026)</a></li>
+                    <li><span class="metric">[417 vistas]</span> <a href="https://t.me/c/2600602354/221" target="_blank">LA MUERTE DE ROBIN HOOD (2026)</a></li>
+                    <li><span class="metric">[409 vistas]</span> <a href="https://t.me/c/2788611835/190" target="_blank">RECREACIÓN DE UN ASESINATO (2025)</a></li>
+                    <li><span class="metric">[404 vistas]</span> <a href="https://t.me/c/2788611835/174" target="_blank">LA COLECCIONISTA (2025)</a></li>
+                    <li><span class="metric">[404 vistas]</span> <a href="https://t.me/c/2682126673/202" target="_blank">BLAS CABRERA Y LA HISTORIA DE LA FÍSICA (2025)</a></li>
+                    <li><span class="metric">[402 vistas]</span> <a href="https://t.me/c/2698448300/183" target="_blank">PESADILLA EN VACACIONES (2023/2026)</a></li>
+                    <li><span class="metric">[400 vistas]</span> <a href="https://t.me/c/2600602354/189" target="_blank">HOLD THE FORT (2025)</a></li>
+                    <li><span class="metric">[399 vistas]</span> <a href="https://t.me/c/2533857425/274" target="_blank">FUKUSHIMA: UNA PESADILLA NUCLEAR (2026)</a></li>
+                    <li><span class="metric">[397 vistas]</span> <a href="https://t.me/c/2682126673/197" target="_blank">LA IA ¿OPTIMISMO O APOCALIPSIS? (2026)</a></li>
+                    <li><span class="metric">[395 vistas]</span> <a href="https://t.me/c/2788611835/177" target="_blank">LA PATRIA PERDIDA (2023)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2788611835/182" target="_blank">RENOIR (2025)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2698448300/212" target="_blank">TERMINATOR: LA SAGA CONTRA LAS MÁQUINAS (2025)</a></li>
+                    <li><span class="metric">[392 vistas]</span> <a href="https://t.me/c/2525136677/252" target="_blank">BACKROOMS (2026)</a></li>
+                    <li><span class="metric">[388 vistas]</span> <a href="https://t.me/c/2533857425/248" target="_blank">UN DESTELLO DE ESPERANZA (2023/2026)</a></li>
+                    <li><span class="metric">[385 vistas]</span> <a href="https://t.me/c/2788611835/171" target="_blank">LAS CARTAS DE LA VIDA (2026)</a></li>
+                    <li><span class="metric">[384 vistas]</span> <a href="https://t.me/c/2316929740/179" target="_blank">EL SER QUERIDO (2026)</a></li>
+                    <li><span class="metric">[383 vistas]</span> <a href="https://t.me/c/2533857425/223" target="_blank">SARAH'S OIL: EL ORO NEGRO (2025)</a></li>
+                    <li><span class="metric">[382 vistas]</span> <a href="https://t.me/c/2682126673/210" target="_blank">SIN UNA PALABRA (2024/2026)</a></li>
+                    <li><span class="metric">[380 vistas]</span> <a href="https://t.me/c/2751020561/236" target="_blank">LA LUCHA (2025)</a></li>
+                    <li><span class="metric">[380 vistas]</span> <a href="https://t.me/c/2751020561/224" target="_blank">LOS JUSTOS (2026)</a></li>
+                    <li><span class="metric">[376 vistas]</span> <a href="https://t.me/c/2316929740/203" target="_blank">EL AÑO NUEVO QUE NUNCA LLEGÓ (2024/2026)</a></li>
+                    <li><span class="metric">[375 vistas]</span> <a href="https://t.me/c/2682126673/239" target="_blank">UN TALENTO ÚNICO (2026)</a></li>
+                    <li><span class="metric">[375 vistas]</span> <a href="https://t.me/c/2682126673/220" target="_blank">FURIA DE LOS THUNDERMAN (2026)</a></li>
+                    <li><span class="metric">[375 vistas]</span> <a href="https://t.me/c/2751020561/245" target="_blank">A LA CARRERA (2026)</a></li>
+                    <li><span class="metric">[374 vistas]</span> <a href="https://t.me/c/2788611835/143" target="_blank">ALGO VIEJO, ALGO NUEVO, ALGO PRESTADO (2024/2026)</a></li>
+                    <li><span class="metric">[371 vistas]</span> <a href="https://t.me/c/2533857425/241" target="_blank">UNA NOCHE EN ZOOPOLIS (2024/2026)</a></li>
+                    <li><span class="metric">[370 vistas]</span> <a href="https://t.me/c/2788611835/166" target="_blank">DEAD ZONE (2022/2026)</a></li>
+                    <li><span class="metric">[369 vistas]</span> <a href="https://t.me/c/2682126673/253" target="_blank">EJERCICIOS PARA VER A DIOS (2025)</a></li>
+                    <li><span class="metric">[367 vistas]</span> <a href="https://t.me/c/2533857425/235" target="_blank">HASTA EL FIN DEL MUNDO (2026)</a></li>
+                    <li><span class="metric">[367 vistas]</span> <a href="https://t.me/c/2533857425/230" target="_blank">BEAST (LA BESTIA) (2026)</a></li>
+                    <li><span class="metric">[366 vistas]</span> <a href="https://t.me/c/2751020561/275" target="_blank">GIGANTE (2025/2026)</a></li>
+                    <li><span class="metric">[365 vistas]</span> <a href="https://t.me/c/2682126673/223" target="_blank">CHOMPOO: LA NIÑA DESAPARECIDA Y OLVIDADA (2026)</a></li>
+                    <li><span class="metric">[364 vistas]</span> <a href="https://t.me/c/2600602354/195" target="_blank">UN ÚLTIMO DISPARO (2026)</a></li>
+                    <li><span class="metric">[363 vistas]</span> <a href="https://t.me/c/2788611835/160" target="_blank">LOMU (2026)</a></li>
+                    <li><span class="metric">[363 vistas]</span> <a href="https://t.me/c/2600602354/205" target="_blank">LETRAS ROBADAS (2026)</a></li>
+                    <li><span class="metric">[360 vistas]</span> <a href="https://t.me/c/2788611835/169" target="_blank">IVÁN & HADOUM (2026)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 ESTRENOS MÁS REENVIADOS (DESDE SIEMPRE)</h2>
+                <ol>
+                    <li><span class="metric">[138 reenvíos]</span> <a href="https://t.me/c/2788611835/193" target="_blank">SPIDER-MAN: BRAND NEW DAY (2026)</a></li>
+                    <li><span class="metric">[104 reenvíos]</span> <a href="https://t.me/c/3937252785/88" target="_blank">LA BOLA NEGRA (2026)</a></li>
+                    <li><span class="metric">[100 reenvíos]</span> <a href="https://t.me/c/2600602354/245" target="_blank">NORMAL (2025)</a></li>
+                    <li><span class="metric">[95 reenvíos]</span> <a href="https://t.me/c/2682126673/217" target="_blank">VAIANA (2026)</a></li>
+                    <li><span class="metric">[94 reenvíos]</span> <a href="https://t.me/c/2788611835/196" target="_blank">INSIDIOUS: FUERA DEL MÁS ALLÁ (2026)</a></li>
+                    <li><span class="metric">[90 reenvíos]</span> <a href="https://t.me/c/2533857425/244" target="_blank">EL FINAL DE OAK STREET (2026)</a></li>
+                    <li><span class="metric">[87 reenvíos]</span> <a href="https://t.me/c/2525136677/252" target="_blank">BACKROOMS (2026)</a></li>
+                    <li><span class="metric">[86 reenvíos]</span> <a href="https://t.me/c/2316929740/162" target="_blank">POSESIÓN INFERNAL: EN LLAMAS (2026)</a></li>
+                    <li><span class="metric">[85 reenvíos]</span> <a href="https://t.me/c/2533857425/238" target="_blank">THE FURIOUS (2025/2026)</a></li>
+                    <li><span class="metric">[74 reenvíos]</span> <a href="https://t.me/c/2788611835/145" target="_blank">LA CASA EN EL ÁRBOL (2025)</a></li>
+                    <li><span class="metric">[73 reenvíos]</span> <a href="https://t.me/c/2682126673/214" target="_blank">A LA DERIVA (2025)</a></li>
+                    <li><span class="metric">[68 reenvíos]</span> <a href="https://t.me/c/2316929740/179" target="_blank">EL SER QUERIDO (2026)</a></li>
+                    <li><span class="metric">[66 reenvíos]</span> <a href="https://t.me/c/2600602354/218" target="_blank">UNABOMBER (2026)</a></li>
+                    <li><span class="metric">[64 reenvíos]</span> <a href="https://t.me/c/2533857425/248" target="_blank">UN DESTELLO DE ESPERANZA (2023/2026)</a></li>
+                    <li><span class="metric">[60 reenvíos]</span> <a href="https://t.me/c/2600602354/223" target="_blank">PUÑO DE LEÓN (2026)</a></li>
+                    <li><span class="metric">[60 reenvíos]</span> <a href="https://t.me/c/2600602354/189" target="_blank">HOLD THE FORT (2025)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2533857425/250" target="_blank">LA VENGANZA DEL HOMBRE DEL SACO (2025/2026)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2682126673/239" target="_blank">UN TALENTO ÚNICO (2026)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2682126673/197" target="_blank">LA IA ¿OPTIMISMO O APOCALIPSIS? (2026)</a></li>
+                    <li><span class="metric">[58 reenvíos]</span> <a href="https://t.me/c/2682126673/191" target="_blank">PIZZA MOVIES (2026)</a></li>
+                    <li><span class="metric">[57 reenvíos]</span> <a href="https://t.me/c/2751020561/224" target="_blank">LOS JUSTOS (2026)</a></li>
+                    <li><span class="metric">[56 reenvíos]</span> <a href="https://t.me/c/2682126673/241" target="_blank">LOS MEJORES AÑOS DE NUESTRA VIDA (2026)</a></li>
+                    <li><span class="metric">[56 reenvíos]</span> <a href="https://t.me/c/2751020561/268" target="_blank">MAYDAY (2026)</a></li>
+                    <li><span class="metric">[56 reenvíos]</span> <a href="https://t.me/c/2751020561/245" target="_blank">A LA CARRERA (2026)</a></li>
+                    <li><span class="metric">[55 reenvíos]</span> <a href="https://t.me/c/2788611835/166" target="_blank">DEAD ZONE (2022/2026)</a></li>
+                    <li><span class="metric">[54 reenvíos]</span> <a href="https://t.me/c/2682126673/186" target="_blank">BAJO TUS PIES (2026)</a></li>
+                    <li><span class="metric">[53 reenvíos]</span> <a href="https://t.me/c/2751020561/249" target="_blank">HELLCAT (2025)</a></li>
+                    <li><span class="metric">[53 reenvíos]</span> <a href="https://t.me/c/2316929740/198" target="_blank">SUSURRAN TU NOMBRE (2026)</a></li>
+                    <li><span class="metric">[52 reenvíos]</span> <a href="https://t.me/c/2533857425/280" target="_blank">102 MINUTOS DENTRO DE LAS TORRES (2026)</a></li>
+                    <li><span class="metric">[52 reenvíos]</span> <a href="https://t.me/c/2682126673/210" target="_blank">SIN UNA PALABRA (2024/2026)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2533857425/274" target="_blank">FUKUSHIMA: UNA PESADILLA NUCLEAR (2026)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2533857425/230" target="_blank">BEAST (LA BESTIA) (2026)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2533857425/223" target="_blank">SARAH'S OIL: EL ORO NEGRO (2025)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/2751020561/212" target="_blank">COUTURE: ALTA COSTURA (2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2800784956/233" target="_blank">TRES DE MÁS (2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2533857425/277" target="_blank">HOKUM (2026)</a></li>
+                    <li><span class="metric">[50 reenvíos]</span> <a href="https://t.me/c/2682126673/248" target="_blank">GRACIAS, EQUIPO (2026)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/2788611835/151" target="_blank">UN LUGAR LLAMADO SILENCIO (2024/2026)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/2600602354/221" target="_blank">LA MUERTE DE ROBIN HOOD (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2800784956/243" target="_blank">HACIENDO AMIGOS (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2698448300/201" target="_blank">MATCHBOX: LA PELÍCULA (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2533857425/265" target="_blank">JUAN TAMARIZ: AMOR Y MAGIA (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2682126673/250" target="_blank">ASESINATO EN LA 3ª PLANTA (2026)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/2316929740/172" target="_blank">ZONA 3 (2025)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2788611835/174" target="_blank">LA COLECCIONISTA (2025)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2800784956/191" target="_blank">ROBARME LA VIDA (2024)</a></li>
+                    <li><span class="metric">[47 reenvíos]</span> <a href="https://t.me/c/2600602354/205" target="_blank">LETRAS ROBADAS (2026)</a></li>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/2698448300/183" target="_blank">PESADILLA EN VACACIONES (2023/2026)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/2698448300/212" target="_blank">TERMINATOR: LA SAGA CONTRA LAS MÁQUINAS (2025)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/2600602354/238" target="_blank">LLAMADA PARA UN ASESINATO (2023/2026)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabId, evt) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById('tab-' + tabId).classList.add('active');
+            evt.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>

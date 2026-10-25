@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas Top 50 - T3rr0r</title>
+    <style>
+        body { background-color: #18191a; color: #e4e6eb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 15px; }
+        h1 { color: #4fc3f7; font-size: 20px; text-align: center; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #b0b3b8; font-size: 13px; margin-bottom: 20px; }
+        .tabs { display: flex; justify-content: center; gap: 5px; margin-bottom: 15px; flex-wrap: wrap; }
+        .tab-btn { background-color: #242526; color: #e4e6eb; border: none; padding: 8px 14px; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 13px; transition: 0.2s; }
+        .tab-btn.active { background-color: #0084ff; color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+        .card { background-color: #242526; border-radius: 10px; padding: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+        h2 { font-size: 14px; color: #ffb74d; margin-top: 0; border-bottom: 1px solid #3a3b3c; padding-bottom: 6px; }
+        ol { padding-left: 20px; margin: 0; font-size: 13px; }
+        li { margin-bottom: 6px; }
+        a { color: #4fc3f7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .metric { color: #e57373; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🏆 TOP 50 VÍDEOS</h1>
+    <div class="subtitle">Canal: T3rr0r (2760 vídeos escaneados) — Actualizado: 24/10/2026 21:11</div>
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('7d', event)">Últimos 7 Días</button>
+        <button class="tab-btn" onclick="switchTab('30d', event)">Últimos 30 Días</button>
+        <button class="tab-btn" onclick="switchTab('365d', event)">Últimos 365 Días</button>
+        <button class="tab-btn" onclick="switchTab('siempre', event)">Desde Siempre</button>
+    </div>
+    <div id="tab-7d" class="tab-content active">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS VISTOS (ÚLTIMOS 7 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[377 vistas]</span> <a href="https://t.me/c/1541530697/8766" target="_blank">WICKER MAN (2006)</a></li>
+                    <li><span class="metric">[355 vistas]</span> <a href="https://t.me/c/1541530697/8765" target="_blank">EL HOMBRE DE MIMBRE (1973)</a></li>
+                    <li><span class="metric">[339 vistas]</span> <a href="https://t.me/c/1541530697/8772" target="_blank">LA ÚLTIMA NAVIDAD DEL UNIVERSO (2019)</a></li>
+                    <li><span class="metric">[298 vistas]</span> <a href="https://t.me/c/1541530697/8780" target="_blank">DUELO EN EL ASFALTO (2015)</a></li>
+                    <li><span class="metric">[269 vistas]</span> <a href="https://t.me/c/1541530697/8778" target="_blank">EL EXORCISTA DEL PAPA (2023)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS COMPARTIDOS (ÚLTIMOS 7 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[25 reenvíos]</span> <a href="https://t.me/c/1541530697/8772" target="_blank">LA ÚLTIMA NAVIDAD DEL UNIVERSO (2019)</a></li>
+                    <li><span class="metric">[24 reenvíos]</span> <a href="https://t.me/c/1541530697/8766" target="_blank">WICKER MAN (2006)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8780" target="_blank">DUELO EN EL ASFALTO (2015)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8765" target="_blank">EL HOMBRE DE MIMBRE (1973)</a></li>
+                    <li><span class="metric">[19 reenvíos]</span> <a href="https://t.me/c/1541530697/8778" target="_blank">EL EXORCISTA DEL PAPA (2023)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="tab-30d" class="tab-content">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS VISTOS (ÚLTIMOS 30 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[744 vistas]</span> <a href="https://t.me/c/1541530697/8660" target="_blank">ANIMAL (2014)</a></li>
+                    <li><span class="metric">[732 vistas]</span> <a href="https://t.me/c/1541530697/8702" target="_blank">LA PIEL QUE BRILLA (1990)</a></li>
+                    <li><span class="metric">[709 vistas]</span> <a href="https://t.me/c/1541530697/8706" target="_blank">INFECTADOS (2009)</a></li>
+                    <li><span class="metric">[630 vistas]</span> <a href="https://t.me/c/1541530697/8700" target="_blank">OSCURA VERDAD (2021)</a></li>
+                    <li><span class="metric">[620 vistas]</span> <a href="https://t.me/c/1541530697/8698" target="_blank">LA ÚLTIMA CASA (2026)</a></li>
+                    <li><span class="metric">[603 vistas]</span> <a href="https://t.me/c/1541530697/8704" target="_blank">CLOWNTOWN (2016)</a></li>
+                    <li><span class="metric">[589 vistas]</span> <a href="https://t.me/c/1541530697/8696" target="_blank">ÁNGELES CAÍDOS: GUERREROS DE PAZ (2024/2026)</a></li>
+                    <li><span class="metric">[559 vistas]</span> <a href="https://t.me/c/1541530697/8716" target="_blank">STAKE LAND 2 ( THE STAKELANDER) (2016)</a></li>
+                    <li><span class="metric">[555 vistas]</span> <a href="https://t.me/c/1541530697/8762" target="_blank">ÚLTIMA NOCHE EN EL SOHO (2021)</a></li>
+                    <li><span class="metric">[544 vistas]</span> <a href="https://t.me/c/1541530697/8712" target="_blank">AMSTERDAMNED: MISTERIO EN LOS CANALES (1988)</a></li>
+                    <li><span class="metric">[543 vistas]</span> <a href="https://t.me/c/1541530697/8694" target="_blank">MOONTRAP: TARGET EARTH (2017)</a></li>
+                    <li><span class="metric">[518 vistas]</span> <a href="https://t.me/c/1541530697/8662" target="_blank">BUFFY, LA CAZAVAMPIROS (1992)</a></li>
+                    <li><span class="metric">[504 vistas]</span> <a href="https://t.me/c/1541530697/8715" target="_blank">STAKE LAND (2010)</a></li>
+                    <li><span class="metric">[481 vistas]</span> <a href="https://t.me/c/1541530697/8760" target="_blank">EXTRA ORDINARIO (2019)</a></li>
+                    <li><span class="metric">[480 vistas]</span> <a href="https://t.me/c/1541530697/8693" target="_blank">MOONTRAP. TRAMPA EN LA LUNA (1988)</a></li>
+                    <li><span class="metric">[475 vistas]</span> <a href="https://t.me/c/1541530697/8666" target="_blank">EL SECRETO DE JOEY (1985)</a></li>
+                    <li><span class="metric">[469 vistas]</span> <a href="https://t.me/c/1541530697/8746" target="_blank">LA PUERTA DEL SÓTANO (2024/2026)</a></li>
+                    <li><span class="metric">[449 vistas]</span> <a href="https://t.me/c/1541530697/8739" target="_blank">STRANGERS: CAPÍTULO 2 (2025)</a></li>
+                    <li><span class="metric">[445 vistas]</span> <a href="https://t.me/c/1541530697/8680" target="_blank">LOS CRÍMENES DE LA ACADEMIA (2022)</a></li>
+                    <li><span class="metric">[443 vistas]</span> <a href="https://t.me/c/1541530697/8686" target="_blank">ANGUSTIA A FLOR DE PIEL (1982)</a></li>
+                    <li><span class="metric">[431 vistas]</span> <a href="https://t.me/c/1541530697/8664" target="_blank">TWO HEADS CREEK (2019)</a></li>
+                    <li><span class="metric">[427 vistas]</span> <a href="https://t.me/c/1541530697/8678" target="_blank">RE-CYCLE (2006)</a></li>
+                    <li><span class="metric">[426 vistas]</span> <a href="https://t.me/c/1541530697/8744" target="_blank">OMUKADE (2026)</a></li>
+                    <li><span class="metric">[422 vistas]</span> <a href="https://t.me/c/1541530697/8756" target="_blank">MÁS ALLÁ DEL ARCO IRIS (1989)</a></li>
+                    <li><span class="metric">[420 vistas]</span> <a href="https://t.me/c/1541530697/8674" target="_blank">THE MONKEY (2025)</a></li>
+                    <li><span class="metric">[415 vistas]</span> <a href="https://t.me/c/1541530697/8670" target="_blank">SLEEPY HOLLOW (1999)</a></li>
+                    <li><span class="metric">[410 vistas]</span> <a href="https://t.me/c/1541530697/8758" target="_blank">ECLIPSE TOTAL (1993)</a></li>
+                    <li><span class="metric">[410 vistas]</span> <a href="https://t.me/c/1541530697/8672" target="_blank">UN BUEN CHICO (2025)</a></li>
+                    <li><span class="metric">[408 vistas]</span> <a href="https://t.me/c/1541530697/8676" target="_blank">TERRORVISION (1986)</a></li>
+                    <li><span class="metric">[407 vistas]</span> <a href="https://t.me/c/1541530697/8668" target="_blank">HOST (2025)</a></li>
+                    <li><span class="metric">[403 vistas]</span> <a href="https://t.me/c/1541530697/8742" target="_blank">UN SUSURRO INVOCÓ MI NOMBRE (2026)</a></li>
+                    <li><span class="metric">[395 vistas]</span> <a href="https://t.me/c/1541530697/8738" target="_blank">STRANGERS: CAPÍTULO 1 (2024)</a></li>
+                    <li><span class="metric">[380 vistas]</span> <a href="https://t.me/c/1541530697/8736" target="_blank">LOS EXTRAÑOS (2008)</a></li>
+                    <li><span class="metric">[379 vistas]</span> <a href="https://t.me/c/1541530697/8737" target="_blank">LOS EXTRAÑOS: CACERÍA NOCTURNA (2018)</a></li>
+                    <li><span class="metric">[377 vistas]</span> <a href="https://t.me/c/1541530697/8766" target="_blank">WICKER MAN (2006)</a></li>
+                    <li><span class="metric">[355 vistas]</span> <a href="https://t.me/c/1541530697/8765" target="_blank">EL HOMBRE DE MIMBRE (1973)</a></li>
+                    <li><span class="metric">[339 vistas]</span> <a href="https://t.me/c/1541530697/8772" target="_blank">LA ÚLTIMA NAVIDAD DEL UNIVERSO (2019)</a></li>
+                    <li><span class="metric">[298 vistas]</span> <a href="https://t.me/c/1541530697/8780" target="_blank">DUELO EN EL ASFALTO (2015)</a></li>
+                    <li><span class="metric">[269 vistas]</span> <a href="https://t.me/c/1541530697/8778" target="_blank">EL EXORCISTA DEL PAPA (2023)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS COMPARTIDOS (ÚLTIMOS 30 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[44 reenvíos]</span> <a href="https://t.me/c/1541530697/8702" target="_blank">LA PIEL QUE BRILLA (1990)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8715" target="_blank">STAKE LAND (2010)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/1541530697/8716" target="_blank">STAKE LAND 2 ( THE STAKELANDER) (2016)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/8660" target="_blank">ANIMAL (2014)</a></li>
+                    <li><span class="metric">[33 reenvíos]</span> <a href="https://t.me/c/1541530697/8706" target="_blank">INFECTADOS (2009)</a></li>
+                    <li><span class="metric">[29 reenvíos]</span> <a href="https://t.me/c/1541530697/8746" target="_blank">LA PUERTA DEL SÓTANO (2024/2026)</a></li>
+                    <li><span class="metric">[28 reenvíos]</span> <a href="https://t.me/c/1541530697/8700" target="_blank">OSCURA VERDAD (2021)</a></li>
+                    <li><span class="metric">[28 reenvíos]</span> <a href="https://t.me/c/1541530697/8666" target="_blank">EL SECRETO DE JOEY (1985)</a></li>
+                    <li><span class="metric">[27 reenvíos]</span> <a href="https://t.me/c/1541530697/8744" target="_blank">OMUKADE (2026)</a></li>
+                    <li><span class="metric">[27 reenvíos]</span> <a href="https://t.me/c/1541530697/8704" target="_blank">CLOWNTOWN (2016)</a></li>
+                    <li><span class="metric">[25 reenvíos]</span> <a href="https://t.me/c/1541530697/8772" target="_blank">LA ÚLTIMA NAVIDAD DEL UNIVERSO (2019)</a></li>
+                    <li><span class="metric">[25 reenvíos]</span> <a href="https://t.me/c/1541530697/8762" target="_blank">ÚLTIMA NOCHE EN EL SOHO (2021)</a></li>
+                    <li><span class="metric">[24 reenvíos]</span> <a href="https://t.me/c/1541530697/8766" target="_blank">WICKER MAN (2006)</a></li>
+                    <li><span class="metric">[24 reenvíos]</span> <a href="https://t.me/c/1541530697/8670" target="_blank">SLEEPY HOLLOW (1999)</a></li>
+                    <li><span class="metric">[24 reenvíos]</span> <a href="https://t.me/c/1541530697/8664" target="_blank">TWO HEADS CREEK (2019)</a></li>
+                    <li><span class="metric">[23 reenvíos]</span> <a href="https://t.me/c/1541530697/8694" target="_blank">MOONTRAP: TARGET EARTH (2017)</a></li>
+                    <li><span class="metric">[23 reenvíos]</span> <a href="https://t.me/c/1541530697/8678" target="_blank">RE-CYCLE (2006)</a></li>
+                    <li><span class="metric">[22 reenvíos]</span> <a href="https://t.me/c/1541530697/8760" target="_blank">EXTRA ORDINARIO (2019)</a></li>
+                    <li><span class="metric">[22 reenvíos]</span> <a href="https://t.me/c/1541530697/8742" target="_blank">UN SUSURRO INVOCÓ MI NOMBRE (2026)</a></li>
+                    <li><span class="metric">[22 reenvíos]</span> <a href="https://t.me/c/1541530697/8693" target="_blank">MOONTRAP. TRAMPA EN LA LUNA (1988)</a></li>
+                    <li><span class="metric">[22 reenvíos]</span> <a href="https://t.me/c/1541530697/8674" target="_blank">THE MONKEY (2025)</a></li>
+                    <li><span class="metric">[22 reenvíos]</span> <a href="https://t.me/c/1541530697/8662" target="_blank">BUFFY, LA CAZAVAMPIROS (1992)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8780" target="_blank">DUELO EN EL ASFALTO (2015)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8765" target="_blank">EL HOMBRE DE MIMBRE (1973)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8758" target="_blank">ECLIPSE TOTAL (1993)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8756" target="_blank">MÁS ALLÁ DEL ARCO IRIS (1989)</a></li>
+                    <li><span class="metric">[21 reenvíos]</span> <a href="https://t.me/c/1541530697/8672" target="_blank">UN BUEN CHICO (2025)</a></li>
+                    <li><span class="metric">[20 reenvíos]</span> <a href="https://t.me/c/1541530697/8712" target="_blank">AMSTERDAMNED: MISTERIO EN LOS CANALES (1988)</a></li>
+                    <li><span class="metric">[20 reenvíos]</span> <a href="https://t.me/c/1541530697/8686" target="_blank">ANGUSTIA A FLOR DE PIEL (1982)</a></li>
+                    <li><span class="metric">[19 reenvíos]</span> <a href="https://t.me/c/1541530697/8778" target="_blank">EL EXORCISTA DEL PAPA (2023)</a></li>
+                    <li><span class="metric">[19 reenvíos]</span> <a href="https://t.me/c/1541530697/8680" target="_blank">LOS CRÍMENES DE LA ACADEMIA (2022)</a></li>
+                    <li><span class="metric">[18 reenvíos]</span> <a href="https://t.me/c/1541530697/8668" target="_blank">HOST (2025)</a></li>
+                    <li><span class="metric">[17 reenvíos]</span> <a href="https://t.me/c/1541530697/8698" target="_blank">LA ÚLTIMA CASA (2026)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/1541530697/8739" target="_blank">STRANGERS: CAPÍTULO 2 (2025)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/1541530697/8738" target="_blank">STRANGERS: CAPÍTULO 1 (2024)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/1541530697/8737" target="_blank">LOS EXTRAÑOS: CACERÍA NOCTURNA (2018)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/1541530697/8736" target="_blank">LOS EXTRAÑOS (2008)</a></li>
+                    <li><span class="metric">[16 reenvíos]</span> <a href="https://t.me/c/1541530697/8676" target="_blank">TERRORVISION (1986)</a></li>
+                    <li><span class="metric">[15 reenvíos]</span> <a href="https://t.me/c/1541530697/8696" target="_blank">ÁNGELES CAÍDOS: GUERREROS DE PAZ (2024/2026)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="tab-365d" class="tab-content">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS VISTOS (ÚLTIMOS 365 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[1329 vistas]</span> <a href="https://t.me/c/1541530697/7896" target="_blank">SHIVER (2012)</a></li>
+                    <li><span class="metric">[1209 vistas]</span> <a href="https://t.me/c/1541530697/7515" target="_blank">THE CAR: ROAD TO REVENGE (2019)</a></li>
+                    <li><span class="metric">[1156 vistas]</span> <a href="https://t.me/c/1541530697/7508" target="_blank">BLACK PHONE 2 (2025)</a></li>
+                    <li><span class="metric">[1154 vistas]</span> <a href="https://t.me/c/1541530697/7510" target="_blank">LA SERPIENTE Y EL ARCO IRIS (1988)</a></li>
+                    <li><span class="metric">[1051 vistas]</span> <a href="https://t.me/c/1541530697/7514" target="_blank">ASESINO INVISIBLE (1977)</a></li>
+                    <li><span class="metric">[1038 vistas]</span> <a href="https://t.me/c/1541530697/7894" target="_blank">FANTASMAS DE MARTE (2001)</a></li>
+                    <li><span class="metric">[1032 vistas]</span> <a href="https://t.me/c/1541530697/7519" target="_blank">AUTOPSY (2008)</a></li>
+                    <li><span class="metric">[1032 vistas]</span> <a href="https://t.me/c/1541530697/7290" target="_blank">BARBARIAN (2022)</a></li>
+                    <li><span class="metric">[1004 vistas]</span> <a href="https://t.me/c/1541530697/8223" target="_blank">PRETTY LETHAL (2026)</a></li>
+                    <li><span class="metric">[995 vistas]</span> <a href="https://t.me/c/1541530697/8461" target="_blank">LEGIÓN (2010)</a></li>
+                    <li><span class="metric">[981 vistas]</span> <a href="https://t.me/c/1541530697/7507" target="_blank">BLACK PHONE (2022)</a></li>
+                    <li><span class="metric">[974 vistas]</span> <a href="https://t.me/c/1541530697/7890" target="_blank">INFESTACIÓN (2009)</a></li>
+                    <li><span class="metric">[947 vistas]</span> <a href="https://t.me/c/1541530697/8166" target="_blank">EL MONSTRUO DE ST. PAULI (2019)</a></li>
+                    <li><span class="metric">[936 vistas]</span> <a href="https://t.me/c/1541530697/7195" target="_blank">PRESENCIAS EXTRAÑAS (2009)</a></li>
+                    <li><span class="metric">[931 vistas]</span> <a href="https://t.me/c/1541530697/8421" target="_blank">DISFORIA (2025)</a></li>
+                    <li><span class="metric">[906 vistas]</span> <a href="https://t.me/c/1541530697/7373" target="_blank">PESADILLA EN ELM STREET: EL ORIGEN (2010)</a></li>
+                    <li><span class="metric">[902 vistas]</span> <a href="https://t.me/c/1541530697/8047" target="_blank">BAMBI: LA VENGANZA (2025)</a></li>
+                    <li><span class="metric">[891 vistas]</span> <a href="https://t.me/c/1541530697/8179" target="_blank">ED GEIN (2000)</a></li>
+                    <li><span class="metric">[888 vistas]</span> <a href="https://t.me/c/1541530697/8315" target="_blank">PLAN DIABÓLICO (1966)</a></li>
+                    <li><span class="metric">[884 vistas]</span> <a href="https://t.me/c/1541530697/8573" target="_blank">A TRAVÉS DEL ESPEJO (1946)</a></li>
+                    <li><span class="metric">[881 vistas]</span> <a href="https://t.me/c/1541530697/7517" target="_blank">CÁMARA POLICIAL (2020)</a></li>
+                    <li><span class="metric">[874 vistas]</span> <a href="https://t.me/c/1541530697/7799" target="_blank">LA LARGA MARCHA (2025)</a></li>
+                    <li><span class="metric">[869 vistas]</span> <a href="https://t.me/c/1541530697/7436" target="_blank">COCODRILO 2: AGUAS SANGRIENTAS (2002)</a></li>
+                    <li><span class="metric">[869 vistas]</span> <a href="https://t.me/c/1541530697/7298" target="_blank">NEW LIFE (2023/2025)</a></li>
+                    <li><span class="metric">[865 vistas]</span> <a href="https://t.me/c/1541530697/8150" target="_blank">28 AÑOS DESPUÉS: EL TEMPLO DE LOS HUESOS (2026)</a></li>
+                    <li><span class="metric">[854 vistas]</span> <a href="https://t.me/c/1541530697/7880" target="_blank">LA BESTIA (1975)</a></li>
+                    <li><span class="metric">[850 vistas]</span> <a href="https://t.me/c/1541530697/7888" target="_blank">REFLEJOS 2 (2010)</a></li>
+                    <li><span class="metric">[849 vistas]</span> <a href="https://t.me/c/1541530697/8162" target="_blank">EL CIEMPIÉS HUMANO 3 (2015)</a></li>
+                    <li><span class="metric">[842 vistas]</span> <a href="https://t.me/c/1541530697/8501" target="_blank">DRÁCULA: LA LEYENDA JAMÁS CONTADA (2014)</a></li>
+                    <li><span class="metric">[832 vistas]</span> <a href="https://t.me/c/1541530697/7886" target="_blank">EL OTRO LADO DEL ESPEJO (2003)</a></li>
+                    <li><span class="metric">[827 vistas]</span> <a href="https://t.me/c/1541530697/7277" target="_blank">NO TENGAS MIEDO A LA OSCURIDAD (2010)</a></li>
+                    <li><span class="metric">[826 vistas]</span> <a href="https://t.me/c/1541530697/7792" target="_blank">SCREAM (1981)</a></li>
+                    <li><span class="metric">[824 vistas]</span> <a href="https://t.me/c/1541530697/8154" target="_blank">EL PÁRAMO (2021)</a></li>
+                    <li><span class="metric">[820 vistas]</span> <a href="https://t.me/c/1541530697/7442" target="_blank">THE EMPTY MAN (2020)</a></li>
+                    <li><span class="metric">[816 vistas]</span> <a href="https://t.me/c/1541530697/8170" target="_blank">SEXY KILLERS (2006)</a></li>
+                    <li><span class="metric">[816 vistas]</span> <a href="https://t.me/c/1541530697/7502" target="_blank">TREMORS: SHRIEKER ISLAND (2020/2025)</a></li>
+                    <li><span class="metric">[815 vistas]</span> <a href="https://t.me/c/1541530697/7796" target="_blank">VISITANTES ( ELLOS) (2003)</a></li>
+                    <li><span class="metric">[814 vistas]</span> <a href="https://t.me/c/1541530697/7801" target="_blank">PERRO BLANCO (1982)</a></li>
+                    <li><span class="metric">[814 vistas]</span> <a href="https://t.me/c/1541530697/7466" target="_blank">NAVIDAD SANGRIENTA (2019)</a></li>
+                    <li><span class="metric">[808 vistas]</span> <a href="https://t.me/c/1541530697/8375" target="_blank">MÁS CALIENTE QUE EL INFIERNO (2026)</a></li>
+                    <li><span class="metric">[807 vistas]</span> <a href="https://t.me/c/1541530697/7790" target="_blank">EL VENGADOR TÓXICO (2023/2025)</a></li>
+                    <li><span class="metric">[806 vistas]</span> <a href="https://t.me/c/1541530697/7636" target="_blank">GOOD BOY (2025)</a></li>
+                    <li><span class="metric">[806 vistas]</span> <a href="https://t.me/c/1541530697/7287" target="_blank">THEY LIVE IN THE GREY (2022/2025)</a></li>
+                    <li><span class="metric">[804 vistas]</span> <a href="https://t.me/c/1541530697/7794" target="_blank">EL ASESINO DE LOVER LANE (1999)</a></li>
+                    <li><span class="metric">[803 vistas]</span> <a href="https://t.me/c/1541530697/7296" target="_blank">MADS (2024/2025)</a></li>
+                    <li><span class="metric">[802 vistas]</span> <a href="https://t.me/c/1541530697/7233" target="_blank">OUIJA (2014)</a></li>
+                    <li><span class="metric">[798 vistas]</span> <a href="https://t.me/c/1541530697/7310" target="_blank">PUNTO ROJO (2021)</a></li>
+                    <li><span class="metric">[796 vistas]</span> <a href="https://t.me/c/1541530697/8185" target="_blank">EL VAGÓN DE LA MUERTE (Versión extendida) (2008)</a></li>
+                    <li><span class="metric">[795 vistas]</span> <a href="https://t.me/c/1541530697/8168" target="_blank">ESPONTÁNEA (2020)</a></li>
+                    <li><span class="metric">[790 vistas]</span> <a href="https://t.me/c/1541530697/7193" target="_blank">DOS HERMANAS (2003)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS COMPARTIDOS (ÚLTIMOS 365 DÍAS)</h2>
+                <ol>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/1541530697/8164" target="_blank">JENNIFER'S BODY (Versión extendida) (2009)</a></li>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/1541530697/7907" target="_blank">AMIGO INVISIBLE (2022)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/1541530697/8166" target="_blank">EL MONSTRUO DE ST. PAULI (2019)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/1541530697/7457" target="_blank">BIENVENIDOS A ZOMBIELAND (2009)</a></li>
+                    <li><span class="metric">[44 reenvíos]</span> <a href="https://t.me/c/1541530697/8702" target="_blank">LA PIEL QUE BRILLA (1990)</a></li>
+                    <li><span class="metric">[44 reenvíos]</span> <a href="https://t.me/c/1541530697/7122" target="_blank">SÉ LO QUE HICISTEIS EL ÚLTIMO VERANO (2025)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/8555" target="_blank">INSIDIOUS: LA PUERTA ROJA (2023)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/8465" target="_blank">EL INNOMBRABLE (1988)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/7458" target="_blank">ZOMBIELAND: MATA Y REMATA (2019)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/7444" target="_blank">Parking 2</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/7368" target="_blank">PESADILLA EN ELM STREET 4: EL AMO DEL SUEÑO (1988)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/7367" target="_blank">PESADILLA EN ELM STREET 3: LOS GUERREROS DEL SUEÑO (1987)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/7365" target="_blank">PESADILLA EN ELM STREET (1984)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/8491" target="_blank">PSYCHO KILLER (2026)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/8185" target="_blank">EL VAGÓN DE LA MUERTE (Versión extendida) (2008)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7373" target="_blank">PESADILLA EN ELM STREET: EL ORIGEN (2010)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7372" target="_blank">FREDDY CONTRA JASON (2003)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7371" target="_blank">LA NUEVA PESADILLA DE WES CRAVEN (1994)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7370" target="_blank">Pesadilla final: La muerte de Freddy ( PESADILLA EN ELM STREET 6) (1991)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7369" target="_blank">PESADILLA EN ELM STREET 5: EL NIÑO DE LOS SUEÑOS (1989)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7366" target="_blank">PESADILLA EN ELM STREET 2: LA VENGANZA DE FREDDY (1985)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7197" target="_blank">TRUCO O TRATO: TERROR EN HALLOWEEN (2007)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/8552" target="_blank">INSIDIOUS: CAPÍTULO 2 (2013)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/8551" target="_blank">INSIDIOUS (2010)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/7519" target="_blank">AUTOPSY (2008)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/8554" target="_blank">INSIDIOUS: LA ÚLTIMA LLAVE (2018)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/8485" target="_blank">UNDERTONE (2026)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/7277" target="_blank">NO TENGAS MIEDO A LA OSCURIDAD (2010)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8715" target="_blank">STAKE LAND (2010)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8553" target="_blank">INSIDIOUS: CAPÍTULO 3 (2015)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8453" target="_blank">THE SUMMONING OF BABY BLUE (2026)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8395" target="_blank">THE LAST SUPPER (2026)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/7887" target="_blank">REFLEJOS (2008)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/7796" target="_blank">VISITANTES ( ELLOS) (2003)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/7442" target="_blank">THE EMPTY MAN (2020)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/7296" target="_blank">MADS (2024/2025)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/7195" target="_blank">PRESENCIAS EXTRAÑAS (2009)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/1541530697/8716" target="_blank">STAKE LAND 2 ( THE STAKELANDER) (2016)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/1541530697/8507" target="_blank">LA NOCHE DE LOS MUERTOS VIVIENTES. ESTALLIDO ZOMBI (2026)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/1541530697/7886" target="_blank">EL OTRO LADO DEL ESPEJO (2003)</a></li>
+                    <li><span class="metric">[37 reenvíos]</span> <a href="https://t.me/c/1541530697/7799" target="_blank">LA LARGA MARCHA (2025)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/8660" target="_blank">ANIMAL (2014)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/8505" target="_blank">EL PASAJERO NOCTURNO (2026)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/7888" target="_blank">REFLEJOS 2 (2010)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/7514" target="_blank">ASESINO INVISIBLE (1977)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/7419" target="_blank">ZOMBIE STRIPPERS (2008)</a></li>
+                    <li><span class="metric">[36 reenvíos]</span> <a href="https://t.me/c/1541530697/7304" target="_blank">BLADE TRINITY (2004)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/1541530697/8593" target="_blank">EL INFIERNO VERDE (2013)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/1541530697/8503" target="_blank">VERDAD O RETO (2018)</a></li>
+                    <li><span class="metric">[35 reenvíos]</span> <a href="https://t.me/c/1541530697/8461" target="_blank">LEGIÓN (2010)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="tab-siempre" class="tab-content">
+        <div class="grid">
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS VISTOS (DESDE SIEMPRE)</h2>
+                <ol>
+                    <li><span class="metric">[1453 vistas]</span> <a href="https://t.me/c/1541530697/6483" target="_blank">LA CASA DE LA ABUELA (1988)</a></li>
+                    <li><span class="metric">[1356 vistas]</span> <a href="https://t.me/c/1541530697/6502" target="_blank">MANOS BRUJAS (2023)</a></li>
+                    <li><span class="metric">[1329 vistas]</span> <a href="https://t.me/c/1541530697/7896" target="_blank">SHIVER (2012)</a></li>
+                    <li><span class="metric">[1310 vistas]</span> <a href="https://t.me/c/1541530697/6478" target="_blank">WINNIE THE POOH 2. EL BOSQUE SANGRIENTO (2024/2025)</a></li>
+                    <li><span class="metric">[1233 vistas]</span> <a href="https://t.me/c/1541530697/6481" target="_blank">TAU (2018)</a></li>
+                    <li><span class="metric">[1209 vistas]</span> <a href="https://t.me/c/1541530697/7515" target="_blank">THE CAR: ROAD TO REVENGE (2019)</a></li>
+                    <li><span class="metric">[1167 vistas]</span> <a href="https://t.me/c/1541530697/6496" target="_blank">MAR.IA (2024)</a></li>
+                    <li><span class="metric">[1156 vistas]</span> <a href="https://t.me/c/1541530697/7508" target="_blank">BLACK PHONE 2 (2025)</a></li>
+                    <li><span class="metric">[1154 vistas]</span> <a href="https://t.me/c/1541530697/7510" target="_blank">LA SERPIENTE Y EL ARCO IRIS (1988)</a></li>
+                    <li><span class="metric">[1143 vistas]</span> <a href="https://t.me/c/1541530697/6477" target="_blank">WINNIE THE POOH: MIEL Y SANGRE (2023)</a></li>
+                    <li><span class="metric">[1138 vistas]</span> <a href="https://t.me/c/1541530697/6523" target="_blank">DEAR DAVID (2023/2025)</a></li>
+                    <li><span class="metric">[1125 vistas]</span> <a href="https://t.me/c/1541530697/7020" target="_blank">NO PROFANAR EL SUEÑO DE LOS MUERTOS (1974)</a></li>
+                    <li><span class="metric">[1096 vistas]</span> <a href="https://t.me/c/1541530697/6500" target="_blank">CLOUD (2024)</a></li>
+                    <li><span class="metric">[1093 vistas]</span> <a href="https://t.me/c/1541530697/6494" target="_blank">LAS HABITACIONES ROJAS (2023/2025)</a></li>
+                    <li><span class="metric">[1083 vistas]</span> <a href="https://t.me/c/1541530697/6530" target="_blank">LA SOMBRA DE LA NOCHE (1997)</a></li>
+                    <li><span class="metric">[1063 vistas]</span> <a href="https://t.me/c/1541530697/6472" target="_blank">CAZADOR CONTRA CAZADOR (2020)</a></li>
+                    <li><span class="metric">[1051 vistas]</span> <a href="https://t.me/c/1541530697/7514" target="_blank">ASESINO INVISIBLE (1977)</a></li>
+                    <li><span class="metric">[1050 vistas]</span> <a href="https://t.me/c/1541530697/6521" target="_blank">TURNO NOCTURNO (2024)</a></li>
+                    <li><span class="metric">[1038 vistas]</span> <a href="https://t.me/c/1541530697/7894" target="_blank">FANTASMAS DE MARTE (2001)</a></li>
+                    <li><span class="metric">[1032 vistas]</span> <a href="https://t.me/c/1541530697/7519" target="_blank">AUTOPSY (2008)</a></li>
+                    <li><span class="metric">[1032 vistas]</span> <a href="https://t.me/c/1541530697/7290" target="_blank">BARBARIAN (2022)</a></li>
+                    <li><span class="metric">[1031 vistas]</span> <a href="https://t.me/c/1541530697/7014" target="_blank">EL JOVENCITO FRANKENSTEIN (1974)</a></li>
+                    <li><span class="metric">[1015 vistas]</span> <a href="https://t.me/c/1541530697/7004" target="_blank">EL FRÍO EN LOS HUESOS (2023/2025)</a></li>
+                    <li><span class="metric">[1006 vistas]</span> <a href="https://t.me/c/1541530697/5900" target="_blank">LONGLEGS (2024)</a></li>
+                    <li><span class="metric">[1004 vistas]</span> <a href="https://t.me/c/1541530697/8223" target="_blank">PRETTY LETHAL (2026)</a></li>
+                    <li><span class="metric">[995 vistas]</span> <a href="https://t.me/c/1541530697/8461" target="_blank">LEGIÓN (2010)</a></li>
+                    <li><span class="metric">[986 vistas]</span> <a href="https://t.me/c/1541530697/6514" target="_blank">Hereje ( HERETIC) (2024)</a></li>
+                    <li><span class="metric">[983 vistas]</span> <a href="https://t.me/c/1541530697/5685" target="_blank">LA ESPERA (2023/2024)</a></li>
+                    <li><span class="metric">[981 vistas]</span> <a href="https://t.me/c/1541530697/7507" target="_blank">BLACK PHONE (2022)</a></li>
+                    <li><span class="metric">[974 vistas]</span> <a href="https://t.me/c/1541530697/7890" target="_blank">INFESTACIÓN (2009)</a></li>
+                    <li><span class="metric">[969 vistas]</span> <a href="https://t.me/c/1541530697/6529" target="_blank">EL VIGILANTE NOCTURNO. DEMONIOS HEREDADOS (2023/2025)</a></li>
+                    <li><span class="metric">[962 vistas]</span> <a href="https://t.me/c/1541530697/7074" target="_blank">EL ASESINO CON OJOS DE CORAZÓN (2025)</a></li>
+                    <li><span class="metric">[954 vistas]</span> <a href="https://t.me/c/1541530697/5986" target="_blank">SUPERSTITION (1982)</a></li>
+                    <li><span class="metric">[953 vistas]</span> <a href="https://t.me/c/1541530697/7018" target="_blank">LA GRAN HUIDA (1984)</a></li>
+                    <li><span class="metric">[949 vistas]</span> <a href="https://t.me/c/1541530697/6070" target="_blank">TERAPIA DIABOLICA (2003)</a></li>
+                    <li><span class="metric">[947 vistas]</span> <a href="https://t.me/c/1541530697/8166" target="_blank">EL MONSTRUO DE ST. PAULI (2019)</a></li>
+                    <li><span class="metric">[941 vistas]</span> <a href="https://t.me/c/1541530697/7043" target="_blank">LUCES ROJAS (2012)</a></li>
+                    <li><span class="metric">[936 vistas]</span> <a href="https://t.me/c/1541530697/7195" target="_blank">PRESENCIAS EXTRAÑAS (2009)</a></li>
+                    <li><span class="metric">[933 vistas]</span> <a href="https://t.me/c/1541530697/7076" target="_blank">RUMPELSTILTSKIN (1995)</a></li>
+                    <li><span class="metric">[931 vistas]</span> <a href="https://t.me/c/1541530697/8421" target="_blank">DISFORIA (2025)</a></li>
+                    <li><span class="metric">[927 vistas]</span> <a href="https://t.me/c/1541530697/6519" target="_blank">HOMBRE LOBO (2025)</a></li>
+                    <li><span class="metric">[923 vistas]</span> <a href="https://t.me/c/1541530697/7010" target="_blank">THE CELLAR (2024/2025)</a></li>
+                    <li><span class="metric">[918 vistas]</span> <a href="https://t.me/c/1541530697/5653" target="_blank">LAMB (2021)</a></li>
+                    <li><span class="metric">[916 vistas]</span> <a href="https://t.me/c/1541530697/6992" target="_blank">BONE TOMAHAWK (2015)</a></li>
+                    <li><span class="metric">[914 vistas]</span> <a href="https://t.me/c/1541530697/6474" target="_blank">CAZADORES OSCUROS (2022/2025)</a></li>
+                    <li><span class="metric">[906 vistas]</span> <a href="https://t.me/c/1541530697/7373" target="_blank">PESADILLA EN ELM STREET: EL ORIGEN (2010)</a></li>
+                    <li><span class="metric">[902 vistas]</span> <a href="https://t.me/c/1541530697/8047" target="_blank">BAMBI: LA VENGANZA (2025)</a></li>
+                    <li><span class="metric">[902 vistas]</span> <a href="https://t.me/c/1541530697/6990" target="_blank">LARGO FIN DE SEMANA (1978)</a></li>
+                    <li><span class="metric">[893 vistas]</span> <a href="https://t.me/c/1541530697/7016" target="_blank">NUDUS (2024/2025)</a></li>
+                    <li><span class="metric">[891 vistas]</span> <a href="https://t.me/c/1541530697/8179" target="_blank">ED GEIN (2000)</a></li>
+                </ol>
+            </div>
+            <div class="card">
+                <h2>TOP 50 VÍDEOS MÁS COMPARTIDOS (DESDE SIEMPRE)</h2>
+                <ol>
+                    <li><span class="metric">[52 reenvíos]</span> <a href="https://t.me/c/1541530697/3407" target="_blank">POSESIÓN INFERNAL. EL DESPERTAR (2023)</a></li>
+                    <li><span class="metric">[51 reenvíos]</span> <a href="https://t.me/c/1541530697/6862" target="_blank">Mártires ( MARTYRS) (2008/2021)</a></li>
+                    <li><span class="metric">[49 reenvíos]</span> <a href="https://t.me/c/1541530697/6717" target="_blank">LOS PECADORES (2025)</a></li>
+                    <li><span class="metric">[48 reenvíos]</span> <a href="https://t.me/c/1541530697/6874" target="_blank">NUNCA APAGUES LA LUZ (2016)</a></li>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/1541530697/8164" target="_blank">JENNIFER'S BODY (Versión extendida) (2009)</a></li>
+                    <li><span class="metric">[46 reenvíos]</span> <a href="https://t.me/c/1541530697/7907" target="_blank">AMIGO INVISIBLE (2022)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/1541530697/8166" target="_blank">EL MONSTRUO DE ST. PAULI (2019)</a></li>
+                    <li><span class="metric">[45 reenvíos]</span> <a href="https://t.me/c/1541530697/7457" target="_blank">BIENVENIDOS A ZOMBIELAND (2009)</a></li>
+                    <li><span class="metric">[44 reenvíos]</span> <a href="https://t.me/c/1541530697/8702" target="_blank">LA PIEL QUE BRILLA (1990)</a></li>
+                    <li><span class="metric">[44 reenvíos]</span> <a href="https://t.me/c/1541530697/7122" target="_blank">SÉ LO QUE HICISTEIS EL ÚLTIMO VERANO (2025)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/8555" target="_blank">INSIDIOUS: LA PUERTA ROJA (2023)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/8465" target="_blank">EL INNOMBRABLE (1988)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/7458" target="_blank">ZOMBIELAND: MATA Y REMATA (2019)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/7444" target="_blank">Parking 2</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/7368" target="_blank">PESADILLA EN ELM STREET 4: EL AMO DEL SUEÑO (1988)</a></li>
+                    <li><span class="metric">[43 reenvíos]</span> <a href="https://t.me/c/1541530697/3404" target="_blank">TERRORÍFICAMENTE MUERTOS (1987)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/7367" target="_blank">PESADILLA EN ELM STREET 3: LOS GUERREROS DEL SUEÑO (1987)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/7365" target="_blank">PESADILLA EN ELM STREET (1984)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/7049" target="_blank">DEVUÉLVEMELA (2025)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/7020" target="_blank">NO PROFANAR EL SUEÑO DE LOS MUERTOS (1974)</a></li>
+                    <li><span class="metric">[42 reenvíos]</span> <a href="https://t.me/c/1541530697/6719" target="_blank">PLAY DEAD (2025)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/8491" target="_blank">PSYCHO KILLER (2026)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/8185" target="_blank">EL VAGÓN DE LA MUERTE (Versión extendida) (2008)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7373" target="_blank">PESADILLA EN ELM STREET: EL ORIGEN (2010)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7372" target="_blank">FREDDY CONTRA JASON (2003)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7371" target="_blank">LA NUEVA PESADILLA DE WES CRAVEN (1994)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7370" target="_blank">Pesadilla final: La muerte de Freddy ( PESADILLA EN ELM STREET 6) (1991)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7369" target="_blank">PESADILLA EN ELM STREET 5: EL NIÑO DE LOS SUEÑOS (1989)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7366" target="_blank">PESADILLA EN ELM STREET 2: LA VENGANZA DE FREDDY (1985)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7197" target="_blank">TRUCO O TRATO: TERROR EN HALLOWEEN (2007)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/7076" target="_blank">RUMPELSTILTSKIN (1995)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/6533" target="_blank">MELANIE: LA CHICA CON TODOS LOS DONES (2016)</a></li>
+                    <li><span class="metric">[41 reenvíos]</span> <a href="https://t.me/c/1541530697/6483" target="_blank">LA CASA DE LA ABUELA (1988)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/8552" target="_blank">INSIDIOUS: CAPÍTULO 2 (2013)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/8551" target="_blank">INSIDIOUS (2010)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/7519" target="_blank">AUTOPSY (2008)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/7055" target="_blank">M3GAN 2.0 (2025)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/7010" target="_blank">THE CELLAR (2024/2025)</a></li>
+                    <li><span class="metric">[40 reenvíos]</span> <a href="https://t.me/c/1541530697/6545" target="_blank">EDEN LAKE (2008)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/8554" target="_blank">INSIDIOUS: LA ÚLTIMA LLAVE (2018)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/8485" target="_blank">UNDERTONE (2026)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/7277" target="_blank">NO TENGAS MIEDO A LA OSCURIDAD (2010)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/7012" target="_blank">ZOMBIES PARTY (2004)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/6876" target="_blank">ANTLERS: CRIATURA OSCURA (2021)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/6570" target="_blank">ÁREA DE DESCANSO (2006)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/6551" target="_blank">DOOR LOCK (2018)</a></li>
+                    <li><span class="metric">[39 reenvíos]</span> <a href="https://t.me/c/1541530697/3406" target="_blank">POSESIÓN INFERNAL ( EVIL DEAD) (2013)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8715" target="_blank">STAKE LAND (2010)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8553" target="_blank">INSIDIOUS: CAPÍTULO 3 (2015)</a></li>
+                    <li><span class="metric">[38 reenvíos]</span> <a href="https://t.me/c/1541530697/8453" target="_blank">THE SUMMONING OF BABY BLUE (2026)</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabId, evt) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById('tab-' + tabId).classList.add('active');
+            evt.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
